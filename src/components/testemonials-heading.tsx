@@ -1,10 +1,13 @@
 import { VStack, Heading, Text } from '@chakra-ui/react'
 const TestemonialHeading = () => {
   return (
-  
-  <Heading size = "lg" align = 'center' mt = '3%'>
+    <VStack
+  align='center'
+>
+  <Heading size = "lg" mt = '3%'>
     WHAT OUR CUSTOMERS SAY?
   </Heading>
+  </VStack>
   );
 }
 
